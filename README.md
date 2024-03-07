@@ -12,9 +12,9 @@ The architectures are built using the [PyTorch](https://pytorch.org) library on 
 
 The following architectures are implemented from these papers:
 
-- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) (Basic Seq2Seq)
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (Seq2Seq with Bahdanau (Additive) Attention)
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Encoder-Decoder Transformer)
+1. [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) (Basic Seq2Seq)
+2. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (Seq2Seq with Bahdanau (Additive) Attention)
+3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Encoder-Decoder Transformer)
 
 ## Why Min-Translator?
 
@@ -24,7 +24,13 @@ Many projects that implement these machine translation networks from scratch oft
 
 This repository should be run in Python 3.11. The required dependencies are provided in `requirements.txt` and can be installed via `pip install -r requirements.txt`. It is recommended to run this within a [virtual environment](https://docs.python.org/3/library/venv.html).
 
-## Acknowledgements
+## TODO
+
+This repository is still in development. The following tasks still need to be completed:
+- Proper documentation for each notebook
+- Addition of BERT architecture (and potentially beyond)
+
+## References
 
 I'd like to thank the following resources that were influential in my understanding of these networks/papers and consequently the creation of this repository:
 
